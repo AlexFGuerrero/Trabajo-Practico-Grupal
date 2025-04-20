@@ -17,10 +17,15 @@ while True:
     elif tipo not in [1, 2, 3]:
         print("Ingrese una opción correcta")
         continue
-    else:
+    elif tipo == 1:
         a = int(input("Ingrese el valor 'A'(0/1): "))
         b = int(input("Ingrese el valor 'B'(0/1): "))
-
+    elif tipo == 2:
+        a = int(input("Ingrese el valor 'A'(0/1): "))
+        b = int(input("Ingrese el valor 'B'(0/1): "))
+    elif tipo == 3:
+        a = int(input("Ingrese un valor (0/1): "))
+    
     if a not in [0, 1] or b not in [0, 1]:
         print("A o B deben ser 0 o 1")
         continue
@@ -34,5 +39,5 @@ while True:
         print(f"A and B = {int(resultado)}")
     elif tipo == 3:
         not_a = not (a)
-        not_b = not (b)
-        print(f"not A = {not_a}\nnot B = {not_b}")
+
+        print(f"not A = {not_a}")
