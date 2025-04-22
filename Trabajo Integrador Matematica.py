@@ -9,7 +9,8 @@ while True:
             "Elija el tipo de operacion logica a realizar:\n \t1. OR\n   \t2. AND\n  \t3. NOT\n \t4. Salir \n\tElección: "
         )
     )
- # Comprobando datos ingresados    if tipo == 4:
+ # Comprobando datos ingresados    
+    if tipo == 4:
         print("Saliendo...")
         break
     # Nos aseguramos que los datos de menú ingresados sean correctos
